@@ -1,0 +1,236 @@
+*{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+    display: inline-block;
+
+}
+a{
+    text-decoration: none;
+}
+.contaier{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+header{
+    max-width: 1400px;
+
+    background-color: black;
+    color: azure;
+    
+}
+.heading-div{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.heading-div h1{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.heading-div a{
+    color: azure;
+    margin-right: 20px;
+    font-size: 20px;
+    transition: all 0.5 ease-in-out;
+}
+.heading-div a:hover{
+    color: blue;
+}
+.sec-img{
+    color: azure;
+    height: 60vh;
+    width: 100vw;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(Apj-img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.sec-img h2{
+    background: transparent;
+    font-size: 40px;
+   
+    margin-bottom: 15px;
+}
+.sec-img p{
+    background: transparent;
+}
+.about{
+    margin-top: 50px;
+    text-align: center;
+}
+.about img{
+    height: 30vh;
+    border: 4px solid blue;
+    cursor: pointer;
+    filter:grayscale(100%);
+    transition: all 0.3s linear;
+    margin-bottom: 30px;
+
+}
+.about img:hover{
+    filter: none;
+    border-radius:50% ;
+
+}
+.about h2{
+    color: blue;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.about p{
+    color: azure;
+    text-transform: lowercase;
+    text-align: center;
+    font-size: 20px;
+}
+
+.invent-1 h3{
+    color: blue;
+    background: transparent;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.invent-1 p{
+    color: azure;
+    font-size: 20px;
+    text-align: center;
+    background: transparent;
+}
+.invent-1{
+    width: 40%;
+    background-image: url(slv.jpeg);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    background-attachment: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
+    
+    
+}
+.invent-1:hover{
+    border: 5px solid blue;
+    transform: scale(1.1);
+}
+.invent-2 h3{
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    background: transparent;
+}
+.invent-2 p{
+    color: azure;
+    font-size: 20px;
+    text-align: center;
+    background: transparent;
+
+}
+.invent-2{
+    width: 40%;
+    background-image: url(nuc.jpeg);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    background-attachment: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
+    
+
+}
+.invent-2:hover{
+    border: 5px solid blue;
+    transform: scale(1.1);
+}
+.research{
+    display: flex;
+    justify-content: space-between;
+}
+.achieve h3{
+    color: azure;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.achieve{
+    margin-top: 20px;
+}
+.img-galery{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    margin: 25px;
+    background-color: blue;
+    
+}
+.img-galery img{
+    width: 30%;
+    margin: 20px;
+}
+.contact h3{
+    color: azure;
+    text-transform: uppercase;
+    text-align:center;
+    margin: 20px;
+}
+.contact form{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.contact input,
+.contact textarea{
+    width: 100%;
+    margin: 15px auto;
+    padding: 8px;
+    border-radius: 2px;
+    font-size: 14px;
+    background-color: azure;
+}
+input:focus,textarea:focus{
+    background-color: black;
+    color: azure;
+}
+form .button{
+    border-radius: 5px;
+    border: 3px solid white;
+    font-size: 20px;
+    background-color: azure;
+    cursor: pointer;
+    transition: all .3s;
+}
+form .button:hover{
+    background-color: blue;
+    color: azure;
+    transform: scale(0.95);
+}
+footer{
+    color: azure;
+    text-align: center;
+}
+
+
